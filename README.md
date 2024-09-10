@@ -9,7 +9,7 @@ A service for transmitting email messages as soon as possible.
 
 ## REST API
 
-    ### Metadata
+### Metadata
 
         Fields:
 
@@ -28,8 +28,7 @@ A service for transmitting email messages as soon as possible.
             - headers        - map of additional headers to be passed directly to vendor and returned in postbacks
             - metadata       - map of additional data to be used for statistics and returned in postbacks
 
-
-    ### Endpoints
+### Endpoints
 
         POST /api/v2/emails HTTP/1.1
 
